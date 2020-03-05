@@ -255,13 +255,16 @@ def win_condition(game):
                         win = True
                     z += 1
 
-
-for x in range(9):
-    while win is False:
-        board_current(turn_number)
-        turn(turn_number)
-        win_condition(board)
-        turn_number += 1
-
+#36 maximum moves in 3d
+while win is False:
+         board_current(turn_number)
+         turn(turn_number)
+         win_condition(board)
+         turn_number += 1
+         
+         if turn_number = 37 and win == False:
+                  print("Draw"!)
+                  break;
+        
 for row in board:
     print(row)
