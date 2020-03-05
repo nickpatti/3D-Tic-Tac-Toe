@@ -13,7 +13,7 @@ input you move in the format: y,z,x
 
 
              z=0        z=1         z=2
-           x  x  x
+             x  x  x
         y [[[0, 0, 0], [4, 5, 6], [7, 8, 9]],
 
         y [[0, 0, 0], [0, 0, 0], [0, 0, 0]],
