@@ -10,7 +10,7 @@ Still to come:
 - Selecting the length of the game
 - Possibly selecting the amount of dimensions? Although this will be hard to display once it exceeds 3
 - Animations through something like Pygame?
-
+- Tensorflow
 
 At the moment: 1 = O, 2 = X
 input you move in the format: y,z,x
